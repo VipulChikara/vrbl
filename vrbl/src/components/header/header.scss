@@ -1,0 +1,52 @@
+.header{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: rgba(100, 101, 105, 0.2) !important;
+    box-shadow: 0 2px 4px -1px rgba(0,0,0,0.25);
+    
+    .header-name{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        color: white;
+        font-size: 2rem;
+        cursor: pointer;
+    }
+    .header-links{
+        position: absolute;
+        right: 2rem;
+        display: flex;
+
+        
+
+        button{
+            // flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 1rem;
+            background:transparent;
+            color: white;
+            padding: 5px 10px;
+            font-size: 0.7rem;
+            // border: 2px solid white;
+            box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+            background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(31deg, #ffffff,#ffffff, #4585ff);
+            background-origin: border-box;
+            background-clip: content-box, border-box;
+            box-shadow: 2px 1000px 1px #16181E inset;
+            border: solid 2px transparent;
+
+
+
+            cursor: pointer;
+            &:first-child{
+                margin-right: 1rem;
+                display: none;
+            }
+        }
+
+    }
+}

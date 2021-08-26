@@ -1,0 +1,29 @@
+.about{  
+    background: rgba(100, 101, 105, 0.2) !important;
+    display: flex;
+    margin: 5rem auto;
+    width: 80%;
+    border-radius: 2rem;
+    padding: 1rem;
+    box-shadow: 0 0px 30px 0px rgba(255, 255, 255, 0.5),inset 0 0px 15px 0px rgba(255, 255, 255, 0.25);
+
+    .about-card{
+        background: rgb(22, 24, 30) !important;
+        border-radius: 1rem;
+        color: white;
+        padding: 7rem 5rem;
+        .about-heading{
+           margin-bottom: 2rem;
+           text-transform: uppercase;
+           font-size: 2rem;
+           font-weight: 700;
+           background: -webkit-linear-gradient(left,#ffffff,#4585ff,#4585ff );
+           -webkit-background-clip: text;
+           -webkit-text-fill-color: transparent;
+        }
+        .about-text{
+           font-size: 1.125rem;
+           text-align: justify;
+        }
+    }
+}
